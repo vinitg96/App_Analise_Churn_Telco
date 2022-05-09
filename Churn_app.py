@@ -334,7 +334,7 @@ if sidebar == "Cadastro de Novo Cliente":
     new_df = pd.DataFrame(new_data, columns=cols)
     #new_df
 
-    model = pickle.load(open("trained_models/XGB.pickle_LOCAL_LAB.dat", "rb"))
+    model = pickle.load(open("trained_models/XGB.pickle.dat", "rb"))
     
 
     if st.button("Obter previsões"):
