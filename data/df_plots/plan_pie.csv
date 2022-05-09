@@ -1,0 +1,5 @@
+churn,international_plan,voice_mail_plan,n,label
+1,0,0,452,Nenhum plano
+1,0,1,56,Apenas correio de voz
+1,1,0,153,Apenas internacional
+1,1,1,46,Ambos os planos
