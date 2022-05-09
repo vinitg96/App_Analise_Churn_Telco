@@ -6,3 +6,4 @@ pickleshare==0.7.5
 scikit-learn==1.0.2
 shap==0.40.0
 matplotlib==3.5.0
+xgboost==1.5.2
