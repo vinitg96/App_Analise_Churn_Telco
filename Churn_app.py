@@ -120,9 +120,9 @@ if sidebar == "Dashboard":
             st.subheader(f"Média de {choice2} por estado")
 
         if choice2 == "Rotatividade":
-            map2 = mapplot(df_map, choice, sufix="%")
+            map2 = mapplot(df_map, choice2, sufix="%")
         else:
-            map2 = mapplot(df_map, choice)
+            map2 = mapplot(df_map, choice2)
 
         st.plotly_chart(map2, use_container_width=True)
 
